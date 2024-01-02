@@ -51,6 +51,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.3s ease, color 0.3s ease; 
+}
+
+.btn:hover {
+    color: black; 
+    cursor: pointer; 
+    transform: scale(1.1); 
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
 }
 
 .btnImg{
