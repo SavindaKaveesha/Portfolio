@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5d53943d.css",
-    "main.js": "/Portfolio/static/js/main.1751aece.js",
+    "main.js": "/Portfolio/static/js/main.61799fae.js",
     "static/media/image.png": "/Portfolio/static/media/image.4f8e05a99d24e47b1f16.png",
     "static/media/portfolio-6.png": "/Portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
     "static/media/portfolio-2.png": "/Portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
@@ -9,15 +9,16 @@
     "static/media/portfolio-1.png": "/Portfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
     "static/media/portfolio-5.png": "/Portfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
     "static/media/portfolio-3.png": "/Portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/Facebook.png": "/Portfolio/static/media/Facebook.790642551cd99bb66a7e.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.030d4c4919600ecf2073.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.df3f373c358bcfdd92bb.png",
     "static/media/ui-design.png": "/Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
-    "static/media/instagram.png": "/Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/Portfolio/index.html",
     "main.5d53943d.css.map": "/Portfolio/static/css/main.5d53943d.css.map",
-    "main.1751aece.js.map": "/Portfolio/static/js/main.1751aece.js.map"
+    "main.61799fae.js.map": "/Portfolio/static/js/main.61799fae.js.map"
   },
   "entrypoints": [
     "static/css/main.5d53943d.css",
-    "static/js/main.1751aece.js"
+    "static/js/main.61799fae.js"
   ]
 }
