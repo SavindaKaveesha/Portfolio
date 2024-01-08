@@ -1,14 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.929c004b.css",
-    "main.js": "/Portfolio/static/js/main.2d26089d.js",
+    "main.css": "/Portfolio/static/css/main.5fc3d2ae.css",
+    "main.js": "/Portfolio/static/js/main.9c715fed.js",
     "static/media/image.png": "/Portfolio/static/media/image.4f8e05a99d24e47b1f16.png",
-    "static/media/portfolio-6.png": "/Portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
-    "static/media/portfolio-2.png": "/Portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
-    "static/media/portfolio-4.png": "/Portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
-    "static/media/portfolio-1.png": "/Portfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
-    "static/media/portfolio-5.png": "/Portfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
-    "static/media/portfolio-3.png": "/Portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
     "static/media/number gussig game.png": "/Portfolio/static/media/number gussig game.267f146bef8332ff3e4a.png",
     "static/media/Facebook.png": "/Portfolio/static/media/Facebook.790642551cd99bb66a7e.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.030d4c4919600ecf2073.png",
@@ -16,11 +10,11 @@
     "static/media/github.png": "/Portfolio/static/media/github.36a6b53f4dcd0def0527.png",
     "static/media/ui-design.png": "/Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "index.html": "/Portfolio/index.html",
-    "main.929c004b.css.map": "/Portfolio/static/css/main.929c004b.css.map",
-    "main.2d26089d.js.map": "/Portfolio/static/js/main.2d26089d.js.map"
+    "main.5fc3d2ae.css.map": "/Portfolio/static/css/main.5fc3d2ae.css.map",
+    "main.9c715fed.js.map": "/Portfolio/static/js/main.9c715fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.929c004b.css",
-    "static/js/main.2d26089d.js"
+    "static/css/main.5fc3d2ae.css",
+    "static/js/main.9c715fed.js"
   ]
 }
