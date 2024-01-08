@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5fc3d2ae.css",
+    "main.css": "/Portfolio/static/css/main.b2b9e607.css",
     "main.js": "/Portfolio/static/js/main.9c715fed.js",
     "static/media/image.png": "/Portfolio/static/media/image.4f8e05a99d24e47b1f16.png",
     "static/media/number gussig game.png": "/Portfolio/static/media/number gussig game.267f146bef8332ff3e4a.png",
@@ -10,11 +10,11 @@
     "static/media/github.png": "/Portfolio/static/media/github.36a6b53f4dcd0def0527.png",
     "static/media/ui-design.png": "/Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "index.html": "/Portfolio/index.html",
-    "main.5fc3d2ae.css.map": "/Portfolio/static/css/main.5fc3d2ae.css.map",
+    "main.b2b9e607.css.map": "/Portfolio/static/css/main.b2b9e607.css.map",
     "main.9c715fed.js.map": "/Portfolio/static/js/main.9c715fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fc3d2ae.css",
+    "static/css/main.b2b9e607.css",
     "static/js/main.9c715fed.js"
   ]
 }
