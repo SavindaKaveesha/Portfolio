@@ -1,0 +1,49 @@
+.card-container {
+    overflow: hidden;
+    width: 260px;
+    margin: 2rem 1rem;
+  }
+  
+  .card {
+    width: 100%;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+    border: 1px solid #ffffff;
+    border-radius: 2rem; 
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem 2rem 0 0; 
+  }
+  
+  .card-content {
+    text-align: center; /* Center-align text content */
+  }
+  
+  .card-content,
+  .card-footer {
+    padding: 15px;
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+  }
+  
+  .card-footer button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px; /* Adjust the border radius for the button */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .card-footer button:hover {
+    background-color: #297fb8; /* Change the background color on hover */
+  }
+  
