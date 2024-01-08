@@ -1,11 +1,5 @@
 import React from 'react'
 import './projects.css'
-import portfolioImg1 from '../../assets/portfolio-1.png';
-import portfolioImg2 from '../../assets/portfolio-2.png';
-import portfolioImg3 from '../../assets/portfolio-3.png';
-import portfolioImg4 from '../../assets/portfolio-4.png';
-import portfolioImg5 from '../../assets/portfolio-5.png';
-import portfolioImg6 from '../../assets/portfolio-6.png';
 import SlidingCardImg from '../../assets/number gussig game.png'
 import SlidingCard from './sliding card/SlidingCard';
 
@@ -28,8 +22,8 @@ function Projects() {
           />
 
           <SlidingCard
-            title="Project 1"
-            description="This is the description for Project 1."
+            title="Number Guessing Game"
+            description="HTML | CSS | ReactJS"
             image={SlidingCardImg}
           />
 

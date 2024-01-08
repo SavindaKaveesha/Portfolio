@@ -9,6 +9,7 @@
     transform: translateX(0);
     transition: transform 0.5s ease;
     border: 1px solid #ffffff;
+    background: rgb(40, 40, 40);
     border-radius: 2rem; 
     overflow: hidden;
   }
@@ -20,12 +21,12 @@
   }
   
   .card-content {
-    text-align: center; /* Center-align text content */
+    text-align: center; 
   }
   
   .card-content,
   .card-footer {
-    padding: 15px;
+    padding: 0.5rem;
   }
   
   .card-content h2 {
@@ -34,16 +35,17 @@
   
   .card-footer button {
     padding: 10px;
-    background-color: #3498db;
-    color: #fff;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     cursor: pointer;
-    width: 100%;
-    border-radius: 5px; /* Adjust the border radius for the button */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    width: 60%;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
   }
   
   .card-footer button:hover {
-    background-color: #297fb8; /* Change the background color on hover */
+    background-color: #297fb8; 
   }
   
