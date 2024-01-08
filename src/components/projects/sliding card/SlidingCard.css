@@ -2,6 +2,11 @@
     overflow: hidden;
     width: 260px;
     margin: 2rem 1rem;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease; 
+  }
+
+  .card-container:hover{
+    transform: scale(1.1);
   }
   
   .card {
@@ -33,7 +38,7 @@
     margin-top: 0;
   }
   
-  .card-footer button {
+  .card-footer button{
     padding: 10px;
     margin-bottom: 1rem;
     background-color: #ffffff;
@@ -43,9 +48,12 @@
     width: 60%;
     border-radius: 2rem;
     transition: background-color 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease; 
   }
   
-  .card-footer button:hover {
+  .card-footer button:hover{
     background-color: #297fb8; 
+    transform: scale(1.1);
+    
   }
   
