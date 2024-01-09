@@ -40,12 +40,12 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #82A0AA; 
+    color: #BFFCF9; 
 }
 
 .desktopMenuListItem:hover::after {
     width: 100%;
-    background-color: #82A0AA; 
+    background-color: #BFFCF9; 
 }
 
 .desktopMenuBtn{
@@ -79,7 +79,7 @@
     margin: 1rem;
     cursor: pointer;
     position: relative;
-    color: white; /* Set the default font color */
+    color: white; 
 }
 
 .desktopMenuListItem::after,
@@ -88,23 +88,23 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -5px; /* Adjust the space as needed */
+    bottom: -5px; 
     width: 0;
     height: 2px;
-    background-color: transparent; /* Change the color as needed */
+    background-color: transparent; 
     transform-origin: center;
     transition: width 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .desktopMenuListItem:hover,
 .active {
-    color: #82A0AA; 
+    color: #BFFCF9; 
 }
 
 .desktopMenuListItem:hover::after,
 .active::after {
     width: 100%;
-    background-color: #82A0AA; 
+    background-color: #BFFCF9; 
 }
 
 .mobMenu{
