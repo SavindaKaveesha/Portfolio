@@ -40,12 +40,12 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #BFFCF9; 
+    color: #F9F871; 
 }
 
 .desktopMenuListItem:hover::after {
     width: 100%;
-    background-color: #BFFCF9; 
+    background-color: #F9F871; 
 }
 
 .desktopMenuBtn{
@@ -98,13 +98,13 @@
 
 .desktopMenuListItem:hover,
 .active {
-    color: #BFFCF9; 
+    color: #F9F871; 
 }
 
 .desktopMenuListItem:hover::after,
 .active::after {
     width: 100%;
-    background-color: #BFFCF9; 
+    background-color: #F9F871; 
 }
 
 .mobMenu{
