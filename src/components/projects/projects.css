@@ -43,15 +43,14 @@
     margin-top: 1.5rem;
     padding: 0.5rem 2rem;
     border-radius: 2rem;
-    transition: background 0.3s ease, color 0.3s ease; 
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
 }
 
 .seeMoreBtn:hover {
     color: black; 
     cursor: pointer; 
     transform: scale(1.1); 
-    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
-}
+    }
 
 @media screen and (max-width:580px) {
     .projectImg{
