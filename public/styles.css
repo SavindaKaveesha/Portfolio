@@ -8,7 +8,7 @@
 }
 
 body{
-    background:#272643;
+    background: rgb(30, 30, 30);
     color: white;
     overflow: hidden; /* controls what happens to content that is too big to fit into an area. */
     overflow-y: scroll; /* make scrolable */ 

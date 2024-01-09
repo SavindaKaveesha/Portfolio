@@ -23,7 +23,7 @@
     margin: 1rem;
     cursor: pointer;
     position: relative;
-    color: white; /* Set the default font color */
+    color: white; 
 }
 
 .desktopMenuListItem::after {
@@ -40,12 +40,12 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow; 
+    color: #82A0AA; 
 }
 
 .desktopMenuListItem:hover::after {
     width: 100%;
-    background-color: yellow; 
+    background-color: #82A0AA; 
 }
 
 .desktopMenuBtn{
@@ -98,13 +98,13 @@
 
 .desktopMenuListItem:hover,
 .active {
-    color: yellow; /* Change the font color on hover or when active */
+    color: #82A0AA; 
 }
 
 .desktopMenuListItem:hover::after,
 .active::after {
     width: 100%;
-    background-color: yellow; /* Change the underline color on hover or when active */
+    background-color: #82A0AA; 
 }
 
 .mobMenu{
