@@ -17,7 +17,7 @@ const skills = () => {
                   <button className='skill_Box'>Java</button>
                   <button className='skill_Box'>Flutter</button>
                   <button className='skill_Box'>Bootstrap</button>
-                  </div>
+                </div>
             </div>
 
             <div className="skill_card">
@@ -55,6 +55,19 @@ const skills = () => {
                   </div>
             </div>
 
+            <div className="skill_card">
+              <div className='skill_title'>Languages</div>
+
+              <div className="skill">
+                  <button className='skill_Box'>Javascript</button>
+                  <button className='skill_Box'>Python</button>
+                  <button className='skill_Box'>Go</button>
+                  <button className='skill_Box'>C#</button>
+                  <button className='skill_Box'>Java</button>
+                  <button className='skill_Box'>C</button>
+                  <button className='skill_Box'>SQL</button>
+                  </div>
+            </div>
 
         </div>
     </section>

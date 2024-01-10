@@ -3,8 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    width: 100vw;
+    height: 100%;
     padding: 0 1rem;
 }
 
@@ -16,8 +15,7 @@
 
 .Skill_Collection{
     display: flex;
-    width: 50vw;
-    height: 35vw;
+    width: 65vw;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -25,17 +23,19 @@
 .skill_card{
     display: flex;
     background: rgb(40, 40, 40);
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem;
     border-radius: 2rem;
     max-width: 45%;
+    align-content: start;
+    padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
 .skill_title{
     font-size: 1.5rem;
     margin-top: 1rem;
+    height: 50px;
 }
 
 .skill{
@@ -46,11 +46,11 @@
 }
 
 .skill_Box{
-    width: 25vw;
+    width: 20vw;
     height: 2.5vw;
     flex: 0 0 30%;
-    background: white;
-    color: black;
+    background: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
     border: none;
     display: flex;
     align-items: center;
@@ -58,11 +58,11 @@
     padding: 0.5rem 1rem;
     margin: 0.5rem 0.5rem;
     border-radius: 2rem;
+    border: 2px solid #ffffff;
 }
 
-.skill_Box:hover {
-    color: black; 
+.skill_Box:hover { 
     cursor: pointer; 
     transform: scale(1.1); 
-    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
+    transition: background 0.3s ease, transform 0.5s ease; 
 }
