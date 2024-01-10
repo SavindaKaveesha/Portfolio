@@ -35,7 +35,7 @@ const skills = () => {
               <div className='skill_title'>Database</div>
 
               <div className="skill">
-                  <button className='skill_Box'>PHP</button>
+                  <button className='skill_Box'>Laravel</button>
                   <button className='skill_Box'>Node.js</button>
                   <button className='skill_Box'>Django</button>
                   <button className='skill_Box'>Flask</button>
@@ -48,10 +48,10 @@ const skills = () => {
               <div className="skill">
                   <button className='skill_Box'>Git</button>
                   <button className='skill_Box'>Docker</button>
-                  <button className='skill_Box'>Visual Studio</button>
                   <button className='skill_Box'>Photoshop</button>
                   <button className='skill_Box'>Illustrator</button>
                   <button className='skill_Box'>Premiere Pro</button>
+                  <button className='skill_Box'>Visual Studio</button>
                   </div>
             </div>
 
@@ -66,6 +66,7 @@ const skills = () => {
                   <button className='skill_Box'>Java</button>
                   <button className='skill_Box'>C</button>
                   <button className='skill_Box'>SQL</button>
+                  <button className='skill_Box'>PHP</button>
                   </div>
             </div>
 

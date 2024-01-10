@@ -15,21 +15,29 @@
 
 .Skill_Collection{
     display: flex;
-    width: 65vw;
+    width: 70vw;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .skill_card{
     display: flex;
-    background: rgb(40, 40, 40);
+    flex-direction: column; 
+    align-items: center; 
     justify-content: center;
+    background: rgb(40, 40, 40);
     flex-wrap: wrap;
     margin: 1rem;
     border-radius: 2rem;
-    max-width: 45%;
+    border: 2px solid #ffffff;
+    width: 45%;
     align-content: start;
     padding: 0 0.5rem 0.5rem 0.5rem;
+    transition: background 0.3s ease, transform 0.5s ease;
+}
+
+.skill_card:hover { 
+    transform: scale(1.1);  
 }
 
 .skill_title{
@@ -43,11 +51,12 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .skill_Box{
-    width: 20vw;
-    height: 2.5vw;
+    /* width: 20vw; */
+    /* height: 2.5vw; */
     flex: 0 0 30%;
     background: rgb(40, 40, 40);
     color: rgb(255, 255, 255);
@@ -61,8 +70,9 @@
     border: 2px solid #ffffff;
 }
 
-.skill_Box:hover { 
-    cursor: pointer; 
-    transform: scale(1.1); 
-    transition: background 0.3s ease, transform 0.5s ease; 
+@media screen and (max-width:580px) {
+    .skill_card{
+        width: 100%;
+        max-width: none;
+    }
 }
