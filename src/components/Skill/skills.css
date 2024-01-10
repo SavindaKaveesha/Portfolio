@@ -8,7 +8,7 @@
     padding: 0 1rem;
 }
 
-.skillTitle{
+.Skill_Main_Title{
     font-size: 2rem;
     font-weight: 600;
     padding-top: 3rem;
@@ -47,6 +47,7 @@
 
 .skill_Box{
     width: 25vw;
+    height: 2.5vw;
     flex: 0 0 30%;
     background: white;
     color: black;
@@ -57,7 +58,6 @@
     padding: 0.5rem 1rem;
     margin: 0.5rem 0.5rem;
     border-radius: 2rem;
-    transition: background 0.3s ease, color 0.3s ease; 
 }
 
 .skill_Box:hover {

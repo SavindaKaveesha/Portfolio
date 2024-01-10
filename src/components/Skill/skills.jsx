@@ -6,7 +6,7 @@ const skills = () => {
 
     <section className='skills_main'>
 
-        <div className="SkillTitle">My Skills</div>
+        <div className="Skill_Main_Title">My Skills</div>
           <div className='Skill_Collection'>
             <div className="skill_card">
               <div className='skill_title'>Frontend</div>
@@ -19,8 +19,6 @@ const skills = () => {
                   <button className='skill_Box'>Bootstrap</button>
                   </div>
             </div>
-
-            
 
             <div className="skill_card">
               <div className='skill_title'>Backend</div>
