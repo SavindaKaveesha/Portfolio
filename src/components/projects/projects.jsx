@@ -12,7 +12,6 @@ function Projects() {
   return (
     <section className="projects" id='projects'>
         <h2 className="projectTitle">My Projects</h2>
-        <span className="projectDesc">vfdvfdvfdvbkfbk bfdk jfjhvjfhdjajvbjb jb jfb jifji bkfjadj fb jfbj bdfjh kjfjk fkj jkfb jkbfjb jfj bfjk jfbj bkjfdfbj dfk sdf hfl fb bvlb hlfdbl shfbh blsdfj blfj bfj bjdsl jb f kjfjknfjn jkfjka nfkjd jnf njk </span>
         <div className="projectImgs">
           <SlidingCard
             title="Student Managment System"
