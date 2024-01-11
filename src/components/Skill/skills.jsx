@@ -1,7 +1,8 @@
-import React from 'react'
-import './skills.css'
+import React from 'react';
+import './skills.css';
 
-const skills = () => {
+const Skills = () => {
+
   return (
 
     <section className='skills_main'>
@@ -75,4 +76,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Skills
