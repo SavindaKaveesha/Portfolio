@@ -45,16 +45,15 @@
     background: white;
     padding: 0.5rem 3.5rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     margin: 0.5rem 0 2rem;
-    transition: background 0.3s ease, color 0.3s ease; 
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .submitBtn:hover {
     color: black; 
     cursor: pointer; 
     transform: scale(1.1); 
-    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
 }
 
 .links{

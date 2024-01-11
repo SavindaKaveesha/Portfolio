@@ -1,8 +1,5 @@
 import React from 'react'
 import './contact.css'
-import facebook from '../../assets/Facebook.png'
-import linkedin from '../../assets/linkedin.png'
-import github from '../../assets/github.png'
 
 const Contact = () => {
   return (
@@ -16,15 +13,6 @@ const Contact = () => {
                 <input type="text" className="email" placeholder='Youe Email'/>
                 <textarea name="" className='message' rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
-
-                <div className="links">
-                  <a href='https://web.facebook.com/savinda.max/'>
-                    <img src= {facebook} alt="facebook" className="icon" /></a>
-                    <a href='https://github.com/SavindaKaveesha'>
-                    <img src= {github} alt="github" className="icon" /></a>
-                    <a href='https://www.linkedin.com/in/savinda-kaveesha-8097a91aa/'>
-                    <img src= {linkedin} alt="linkedin" className="icon" /></a>
-                </div>
             </form>
         </div>
     </section>

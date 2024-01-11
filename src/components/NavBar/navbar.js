@@ -23,7 +23,7 @@ const Navbar = () => {
         <button className='desktopMenuBtn' onClick={()=>{
           document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
         }}>
-            <img src= {contactIMG} alt='contact me logo' className='desktopMenuImg'/>Contact me
+            <img src= {contactIMG} alt='contact me logo' className='desktopMenuImg'/>Drop Message
         </button>
 
           {/* hamberg button */}  

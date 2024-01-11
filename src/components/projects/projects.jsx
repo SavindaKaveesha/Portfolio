@@ -11,7 +11,7 @@ import SlidingCard from './sliding card/SlidingCard';
 function Projects() {
   return (
     <section className="projects" id='projects'>
-        <h2 className="projectTitle">My Projects</h2>
+        <div className="projectTitle">My Projects</div>
         <div className="projectImgs">
           <SlidingCard
             title="Student Managment System"

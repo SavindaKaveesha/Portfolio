@@ -4,6 +4,7 @@ import Skills from "./components/Skill/skills";
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer"
+import FloatingButton from "./components/floating buttons/floating button"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <FloatingButton/>
     </div>
   );
 }
