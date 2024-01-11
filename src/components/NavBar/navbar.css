@@ -49,19 +49,21 @@
 }
 
 .desktopMenuBtn{
-    background: white;
-    color: black;
+    background: rgb(30,30,30);
+    color: rgb(255, 255, 255);
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 2rem 0 1rem;
     border-radius: 0.7rem;
+    border: 2px solid #ffffff;
     transition: background 0.3s ease, color 0.3s ease; 
 }
 
 .desktopMenuBtn:hover {
-    color: black; 
+    color: black;
+    background-color: rgb(30, 30, 30); 
     cursor: pointer; 
     transform: scale(1.1); 
     transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease; 
