@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 import bigImage from '../../assets/image.png'
-import btnImg from '../../assets/hireme.png'
+import btnImg from '../../assets/hireme white.png'
 import {Link} from 'react-scroll'
 
 const Intro = () => {

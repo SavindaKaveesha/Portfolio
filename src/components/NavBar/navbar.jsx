@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import contactIMG from '../../assets/contact.png'
+import contactIMG from '../../assets/contact white.png'
 import Menu from '../../assets/menu.png'
 import {Link} from 'react-scroll'
 

@@ -37,23 +37,27 @@
 }
 
 .btn{
-    background: white;
+    background: rgb(30,30,30);
+    color: white;
     margin: 1rem 0;
-    border: none;
     border-radius: 0.7rem;
+    border: 2px solid #ffffff;
     padding: 0.75rem 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.3s ease, color 0.3s ease; 
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .btn:hover {
-    color: black; 
-    cursor: pointer; 
-    transform: scale(1.1); 
+    color: black;
+    background: white; 
+    transform: scale(1.1);
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease; 
+}
+
+.btn:hover .btn{
+    content: url('../../assets/hireme.png');
 }
 
 .btnImg{
