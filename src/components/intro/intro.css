@@ -56,14 +56,14 @@
     cursor: pointer;
 }
 
-.btn:hover .btn{
-    content: url('../../assets/hireme.png');
-}
-
 .btnImg{
     object-fit: cover;
     margin: 0 0.5rem;
     height: 1rem;
+}
+
+.btn:hover .btnImg {
+    content: url('../../assets/hireme.png');
 }
 
 @media screen and (max-width:480px){
