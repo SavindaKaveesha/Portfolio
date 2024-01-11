@@ -55,8 +55,6 @@
 }
 
 .skill_Box{
-    /* width: 20vw; */
-    /* height: 2.5vw; */
     flex: 0 0 30%;
     background: rgb(40, 40, 40);
     color: rgb(255, 255, 255);
@@ -66,13 +64,26 @@
     justify-content: center;
     padding: 0.5rem 1rem;
     margin: 0.5rem 0.5rem;
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     border: 2px solid #ffffff;
 }
 
 @media screen and (max-width:580px) {
-    .skill_card{
+    /* .skill_card{
         width: 100%;
         max-width: none;
-    }
+    } */
+
+    .Skill_Collection {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+      }
+    
+      .skill_card {
+        width: auto;
+        margin: 1rem 0.5rem; /* Adjust margin for better spacing */
+        flex: 0 0 auto; /* Allow the cards to be as wide as their content */
+      }
+
 }
