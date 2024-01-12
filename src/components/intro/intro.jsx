@@ -12,9 +12,15 @@ const Intro = () => {
 
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Savinda</span><br></br>Software Enginer</span>
-                <a href='SavindaKaveesha.pdf'>
+                {/* <a href='SavindaKaveesha.pdf'>
                 <Link><button className='btn'><img src= {btnImg} alt='Hire me' className='btnImg'/>Download Resume</button></Link>
-                </a>
+                </a> */}
+                <a href='SavindaKaveesha.pdf' target='_blank' rel='noopener noreferrer'>
+    <button className='btn'>
+        <img src={btnImg} alt='Hire me' className='btnImg' />
+        Download Resume
+    </button>
+</a>
         </div>
 
         <img src= {bigImage} alt='Profile Picture' className='bigImage'/>

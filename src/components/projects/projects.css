@@ -34,7 +34,7 @@
     color: white;
     background: rgb(30 30 30 );
     border: 2px solid #ffffff;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     padding: 0.5rem 2rem;
     border-radius: 0.7rem;
     transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease; 

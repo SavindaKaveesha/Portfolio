@@ -5,7 +5,7 @@ const Skills = () => {
 
   return (
 
-    <section className='skills_main'>
+    <section className='skills_main' id='skills'>
 
         <div className="Skill_Main_Title">My Skills</div>
           <div className='Skill_Collection'>
