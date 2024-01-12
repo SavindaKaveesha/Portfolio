@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6864d0df.css",
-    "main.js": "/Portfolio/static/js/main.3415bd2a.js",
+    "main.css": "/Portfolio/static/css/main.a9c2faee.css",
+    "main.js": "/Portfolio/static/js/main.c4a37d7e.js",
     "static/media/Black Jack Game.png": "/Portfolio/static/media/Black Jack Game.89ecbf9158fa926ce146.png",
     "static/media/image.png": "/Portfolio/static/media/image.4f8e05a99d24e47b1f16.png",
     "static/media/Facebook.png": "/Portfolio/static/media/Facebook.790642551cd99bb66a7e.png",
@@ -13,11 +13,11 @@
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.df3f373c358bcfdd92bb.png",
     "static/media/github.png": "/Portfolio/static/media/github.36a6b53f4dcd0def0527.png",
     "index.html": "/Portfolio/index.html",
-    "main.6864d0df.css.map": "/Portfolio/static/css/main.6864d0df.css.map",
-    "main.3415bd2a.js.map": "/Portfolio/static/js/main.3415bd2a.js.map"
+    "main.a9c2faee.css.map": "/Portfolio/static/css/main.a9c2faee.css.map",
+    "main.c4a37d7e.js.map": "/Portfolio/static/js/main.c4a37d7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6864d0df.css",
-    "static/js/main.3415bd2a.js"
+    "static/css/main.a9c2faee.css",
+    "static/js/main.c4a37d7e.js"
   ]
 }
