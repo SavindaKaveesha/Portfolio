@@ -36,6 +36,12 @@
     color : #F4CE14;
 }
 
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.5rem;
+    height: 1rem;
+}
+
 .btn{
     background: rgb(30,30,30);
     color: white;
@@ -49,17 +55,15 @@
     transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease;
 }
 
+/* .btn:hover .btnImg {
+    content: url('../../assets/hireme.png');
+} */
+
 .btn:hover {
     color: black;
     background: white; 
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.btnImg{
-    object-fit: cover;
-    margin: 0 0.5rem;
-    height: 1rem;
 }
 
 .btn:hover .btnImg {
