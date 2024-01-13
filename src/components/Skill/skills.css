@@ -75,3 +75,34 @@
         max-width: none;
     }
 }
+
+/*Skills blur effect*/
+.skills_main.blur-eff .skill_card,
+.skills_main.blur-eff .Skill_Main_Title{
+    translate: 0 60px;
+    filter: blur(30px);
+    opacity: 0;
+    animation-name: skillShow;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes skillShow {
+    to{
+        translate: 0 0;
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+.skills_main.blur-eff .skill_card:nth-child(1),
+.skills_main.blur-eff .skill_card:nth-child(2){
+    animation-delay: 0.4s;
+}
+.skills_main.blur-eff .skill_card:nth-child(3),
+.skills_main.blur-eff .skill_card:nth-child(4){
+    animation-delay: 0.8s;
+}
+.skills_main.blur-eff .skill_card:nth-child(5){
+    animation-delay: 1.2s;
+}

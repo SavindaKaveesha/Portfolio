@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './skills.css';
 
 const Skills = () => {
@@ -74,5 +74,6 @@ const Skills = () => {
     </section>
   )
 }
+
 
 export default Skills
