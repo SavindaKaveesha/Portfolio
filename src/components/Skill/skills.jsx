@@ -1,11 +1,39 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './skills.css';
 
 const Skills = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasClassAdded, setHasClassAdded] = useState(false);
+  const skillsMainRef = useRef();
+
+  const handleScroll = () => {
+    const skillsMainElement = skillsMainRef.current;
+
+    if (skillsMainElement) {
+      const rect = skillsMainElement.getBoundingClientRect();
+      const isElementVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+      if (!hasClassAdded && isElementVisible) {
+        // Add the class only once when the component comes into the viewport
+        setHasClassAdded(true);
+        skillsMainElement.classList.add('blur-eff');
+        window.removeEventListener('scroll', handleScroll); // Remove the event listener
+      }
+
+      setIsVisible(isElementVisible);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
 
-    <section className='skills_main' id='skills'>
+    <section className={`skills_main ${isVisible ? 'blur-eff' : ''}`} ref={skillsMainRef} id='skills'>
 
         <div className="Skill_Main_Title">My Skills</div>
           <div className='Skill_Collection'>
