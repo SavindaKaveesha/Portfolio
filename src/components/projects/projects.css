@@ -52,3 +52,22 @@
         height: 48vw;
     }
 }
+
+/*Skills blur effect*/
+.projects.blur-eff{
+    translate: 0 60px;
+    filter: blur(30px);
+    opacity: 0;
+    animation-name: projectsShow;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes projectsShow {
+    to{
+        translate: 0 0;
+        filter: blur(0);
+        opacity: 1;
+    }
+}

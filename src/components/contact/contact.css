@@ -61,3 +61,23 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/*Skills blur effect*/
+.contact.blur-eff{
+    translate: 0 60px;
+    filter: blur(30px);
+    opacity: 0;
+    animation-name: contactShow;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes contactShow {
+    to{
+        translate: 0 0;
+        filter: blur(0);
+        opacity: 1;
+    }
+}

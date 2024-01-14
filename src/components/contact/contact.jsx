@@ -1,8 +1,38 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasClassAdded, setHasClassAdded] = useState(false);
+  const contactMainRef = useRef();
+
+  const handleScroll = () => {
+    const contactMainElement = contactMainRef.current;
+
+    if (contactMainElement){
+      const rect = contactMainElement.getBoundingClientRect();
+      const isElementVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+      if (!hasClassAdded && isElementVisible) {
+        setHasClassAdded(true);
+        contactMainElement.classList.add('blur-eff');
+        window.removeEventListener('scroll', handleScroll); 
+      }
+
+      setIsVisible(isElementVisible);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
 
 const form = useRef();
 const sendEmail = (e) => {
@@ -19,7 +49,7 @@ const sendEmail = (e) => {
 };
 
   return (
-    <section className='contactPage' id='contact'>
+    <section className={`contact ${isVisible ? 'blur-eff' : ''}`} id='contact' ref={contactMainRef}>
         <div className="contact">
             <h1 className='contactTitle'>Contact Me</h1>
             <form ref={form} onSubmit={sendEmail} className="contactForm"> 

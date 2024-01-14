@@ -14,10 +14,9 @@ const Skills = () => {
       const isElementVisible = rect.top < window.innerHeight && rect.bottom >= 0;
 
       if (!hasClassAdded && isElementVisible) {
-        // Add the class only once when the component comes into the viewport
         setHasClassAdded(true);
         skillsMainElement.classList.add('blur-eff');
-        window.removeEventListener('scroll', handleScroll); // Remove the event listener
+        window.removeEventListener('scroll', handleScroll); 
       }
 
       setIsVisible(isElementVisible);
@@ -97,7 +96,6 @@ const Skills = () => {
                   <button className='skill_Box'>PHP</button>
                   </div>
             </div>
-
         </div>
     </section>
   )

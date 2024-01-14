@@ -1,8 +1,8 @@
 import React from 'react'
+import resume from './Savinda Kaveesha.pdf';
 import './intro.css'
 import bigImage from '../../assets/image.png'
 import btnImg from '../../assets/hireme white.png'
-import {Link} from 'react-scroll'
 
 const Intro = () => {
   return (
@@ -12,15 +12,12 @@ const Intro = () => {
 
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Savinda</span><br></br>Software Enginer</span>
-                {/* <a href='SavindaKaveesha.pdf'>
-                <Link><button className='btn'><img src= {btnImg} alt='Hire me' className='btnImg'/>Download Resume</button></Link>
-                </a> */}
-                <a href='SavindaKaveesha.pdf' target='_blank' rel='noopener noreferrer'>
-    <button className='btn'>
-        <img src={btnImg} alt='Hire me' className='btnImg' />
-        Download Resume
-    </button>
-</a>
+            <a href={resume} target='_blank' rel='noopener noreferrer'>
+            <button className='btn'>
+            <img src={btnImg} alt='Hire me' className='btnImg' />
+            Download Resume
+            </button>
+            </a>
         </div>
 
         <img src= {bigImage} alt='Profile Picture' className='bigImage'/>
