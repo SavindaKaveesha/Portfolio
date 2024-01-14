@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7f0eac5b.css",
-    "main.js": "/Portfolio/static/js/main.46782cad.js",
+    "main.css": "/Portfolio/static/css/main.04fe922e.css",
+    "main.js": "/Portfolio/static/js/main.3c84afa5.js",
     "static/media/Black Jack Game.png": "/Portfolio/static/media/Black Jack Game.89ecbf9158fa926ce146.png",
     "static/media/image.png": "/Portfolio/static/media/image.4f8e05a99d24e47b1f16.png",
+    "static/media/Savinda Kaveesha.pdf": "/Portfolio/static/media/Savinda Kaveesha.3b62a719f10eec082de3.pdf",
     "static/media/Facebook.png": "/Portfolio/static/media/Facebook.790642551cd99bb66a7e.png",
     "static/media/Student Managment.png": "/Portfolio/static/media/Student Managment.f3a7e433e6152c33882f.png",
     "static/media/Shop Manage.png": "/Portfolio/static/media/Shop Manage.ce71740c3eb2b5ad88c0.png",
@@ -13,11 +14,11 @@
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.df3f373c358bcfdd92bb.png",
     "static/media/github.png": "/Portfolio/static/media/github.36a6b53f4dcd0def0527.png",
     "index.html": "/Portfolio/index.html",
-    "main.7f0eac5b.css.map": "/Portfolio/static/css/main.7f0eac5b.css.map",
-    "main.46782cad.js.map": "/Portfolio/static/js/main.46782cad.js.map"
+    "main.04fe922e.css.map": "/Portfolio/static/css/main.04fe922e.css.map",
+    "main.3c84afa5.js.map": "/Portfolio/static/js/main.3c84afa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f0eac5b.css",
-    "static/js/main.46782cad.js"
+    "static/css/main.04fe922e.css",
+    "static/js/main.3c84afa5.js"
   ]
 }
