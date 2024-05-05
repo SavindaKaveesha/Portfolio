@@ -1,6 +1,6 @@
 
 import React from 'react';
-import facebook from '../../assets/Facebook.png'
+import facebook from '../../assets/facebook.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 import './floating button.css'; 

@@ -42,7 +42,7 @@ const Skills = () => {
               <div className="skill">
                   <button className='skill_Box'>CSS</button>
                   <button className='skill_Box'>RactJS</button>
-                  <button className='skill_Box'>Java</button>
+                  <button className='skill_Box'>Angular</button>
                   <button className='skill_Box'>Flutter</button>
                   <button className='skill_Box'>Bootstrap</button>
                 </div>
