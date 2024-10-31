@@ -55,6 +55,10 @@
     transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease, box-shadow 0.3s ease;
 }
 
+.introText {
+    transition: opacity 0.5s ease;
+  }  
+
 .btn:hover {
     color: black;
     background: white; 
@@ -77,3 +81,22 @@
         font-size: 4.5vw;
     }
 }
+
+.fade {
+    animation: fadeInOut 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }  
