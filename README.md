@@ -9,13 +9,6 @@ This is the source code for my personal portfolio website. The website showcases
 ## 🌐 Demo
 You can visit the live version of the site here: [Portfolio Website](https://SavindaKaveesha.github.io/Portfolio)
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Deployment](#deployment)
-- [Folder Structure](#folder-structure)
-- [License](#license)
 
 ## ✨ Features
 - **Home/Intro Section**: A welcoming intro with animated title text.
